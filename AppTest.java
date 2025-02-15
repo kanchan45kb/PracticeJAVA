@@ -1,4 +1,4 @@
-package loginpage.log12;
+package practice.practice1;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
