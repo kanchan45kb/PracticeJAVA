@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class switchcase {
 
 	public static void main(String[] args) {
-		/*Scanner number = new Scanner(System.in);
+		int number = Integer.parseInt(args[0]);
+		//Scanner number = new Scanner(System.in);
 		System.out.print("Enter the week number between 1 to 7 only = ");
-		int a = number.nextInt();
-		switch(a)
+	//	int a = number.nextInt();
+		switch(number)
 		{
 		case 1: System.out.println("Monday");break; // break is use to jump out from case
 		case 2: System.out.println("Tuesday");break;
@@ -19,7 +20,8 @@ public class switchcase {
 		case 7: System.out.println("Sunday");break;
 		default: System.out.println("Invalid week number");
 		
-		}*/
+		}
+		/*
 		Scanner day = new Scanner(System.in);
 		System.out.print("Enter the Day name = ");
 		String a = day.next();
@@ -34,7 +36,7 @@ public class switchcase {
 		case "Sunday" : System.out.println("7");break;
 		default:System.out.println("Invalid Day from week");
 		
-		}
+		}*/
 		
 	}
 
