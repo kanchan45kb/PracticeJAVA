@@ -1,0 +1,44 @@
+1) If there is no main method, what will happen? 
+ ------> i.method is the entry point where the program starts execution.
+		ii. It is where the Java Virtual Machine (JVM) starts executing the program.
+		iii. If there is no main method the JVM won't know where to start the execution
+.........................................................................................................
+2) Does main mehtod return any value?
+--------> i. the main method does not return any value in terms of providing a result to the calling process.
+		  ii. The main method has a return type of void, meaning it does not return any value.
+........................................................................................................
+3) what is main method?
+--------> i. The main method in Java is a special method that serves as the entry point for a Java application.
+............................................................................................................................	
+4) (String[] args) what is this in main method?
+--------> i. String: Predefined Class Name , args: Variable Name
+          ii. String[] This declares an array of strings. and args This is the name of the array variable.
+.............................................................................................................................
+5) main(String[] args) in this insted of args can i write something else like java, or Selenium like this (String[] Selenium)?
+-------> Yes, args means arguments.It's just the variable that will hold the array of command-line arguments.
+...............................................................................................................................
+6) public static void main(string args[]) { } is this right main method, is this will work? ([] position is changed)
+---------> Yes its worked.In Java, you can declare an array using Type[] arrayName or Type arrayName[].
+ Both styles are correct and work the same way, 
+...................................................................................................................................
+7) public static void main(string[]args) { }, is this right main method, is this will work? (i have removed the space between []args)
+---------> Yes its worked.
+....................................................................................................................................
+8) public static void main(string...args) { }, is this right main method, is this will work? ( i have removed [] and added ...)
+---------> No, its not worked shows error "Error: Unable to initialize main class controlstatment.fibonacciSequence
+Caused by: java.lang.NoClassDefFoundError: [Lstring;"
+....................................................................................................................................
+9) static public void main(String[] args) { is this valid main mehtod ?
+----------> Yes. we can arrange this in any order.
+.....................................................................................................................................
+10) public void static main(String[] args) {} is this valid main method? 
+----------> No, its not worked shows error. In Java, the static keyword must come before the return type (which is void for the main method). 
+.......................................................................................................................................
+11) public static main void (String[] args) {} is this valid main method? 
+---------->No, its not worked shows error. The void keyword must come immediately after static. It indicates that the main method does not return a value.
+The main method is the entry point of a Java program and is a method name, not a modifier. You should not place it after static and void.
+.......................................................................................................................................
+12) Who Gets Highest Priority in Execution?
+----------> The main method in Java gets the highest priority as it is the entry point of a standalone Java application. 
+The program starts executing from the main method.
+ This method is called by the JVM when the program is run.
